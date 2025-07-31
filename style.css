@@ -1,0 +1,23 @@
+html{
+    background-color:rgb(120, 12, 111);
+    color:white;
+    text-align:center
+}
+.table{
+    margin:auto;
+    
+}
+.table tr td{
+    padding:10px;
+}
+div{
+    color:rgb(120, 12, 111);
+    background-color:aliceblue;
+}
+.table1{
+    margin:auto;
+    
+}
+.table1 tr td{
+    padding:20px;
+}
