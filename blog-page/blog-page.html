@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Blog Page</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 bg-white shadow-md">
+    <div class="text-2xl font-bold text-indigo-600">MyBlog</div>
+    <div class="space-x-6 text-gray-600">
+      <a href="#" class="hover:text-indigo-500">Home</a>
+      <a href="#" class="hover:text-indigo-500">About</a>
+      <a href="#" class="hover:text-indigo-500">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-indigo-100">
+    <h1 class="text-4xl md:text-5xl font-bold text-indigo-700 mb-4">Welcome to My Blog</h1>
+    <p class="text-lg md:text-xl text-gray-700 mb-6">Insights, stories, and updates on web development and more</p>
+    <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition">Get Started</button>
+  </section>
+
+  <!-- Blog Grid Section -->
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Blog Card 1 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+        <img src="https://img-c.udemycdn.com/course/750x422/4889154_e8ed.jpg" alt="Blog 1" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h2 class="text-xl font-medium text-gray-800 mb-2">Mastering Tailwind CSS</h2>
+        <p class="text-gray-600 mb-4">Learn how to build fast, responsive websites using Tailwind's utility-first approach.</p>
+        <button class="text-indigo-600 font-semibold hover:underline">Read More</button>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png" alt="Blog 2" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h2 class="text-xl font-medium text-gray-800 mb-2">Why JavaScript Still Rules</h2>
+        <p class="text-gray-600 mb-4">A deep dive into the reasons JavaScript remains the king of modern web development.</p>
+        <button class="text-indigo-600 font-semibold hover:underline">Read More</button>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+        <img src="https://divbyzero.com/wp-content/uploads/2022/11/lessons-startup-owners.jpg" alt="Blog 3" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h2 class="text-xl font-medium text-gray-800 mb-2">Startup Lessons in Tech</h2>
+        <p class="text-gray-600 mb-4">Explore the journey of building tech startups and the challenges that come with it.</p>
+        <button class="text-indigo-600 font-semibold hover:underline">Read More</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-100 text-gray-500 text-sm">
+    © 2025 MyBlog. All rights reserved.
+  </footer>
+
+</body>
+</html>
